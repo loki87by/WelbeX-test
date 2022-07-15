@@ -1,0 +1,50 @@
+{
+  "name": "welbex-backend",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://github.com/loki87by/WelbeX-test/branches/backend",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "express": "^4.18.1",
+    "random-words": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.19"
+  },
+  "description": "Данный проект является реализацией тестового задания на трудоустройство в компанию WelbeX",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loki87by/WelbeX-test/branches/backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loki87by/WelbeX-test/issues"
+  }
+}
